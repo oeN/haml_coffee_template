@@ -14,3 +14,7 @@ guard :haml, input: 'src/markup', output: 'public' do
 end
 
 guard 'coffeescript', input: 'src/js', output: 'public/js'
+
+guard 'livereload' do
+  watch(%r{public/.+\.(css|js|html)})
+end
