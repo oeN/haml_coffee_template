@@ -1,1 +1,1 @@
-# Project template with HAML, CoffeeScript and Guard
+## Project template with HAML, CoffeeScript and Guard
